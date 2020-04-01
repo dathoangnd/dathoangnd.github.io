@@ -5,7 +5,7 @@ title: Dự án
 
 <div class="post">
 	<h2 class="pageTitle">{{ page.title }}</h2>
-	<p class="intro">Đây là nơi tập hợp các dự án Machine Learning của tôi. Chúng đều sử dụng các kiến thức được trình bày trong blog này và được công bố mã nguồn sử dụng <a target="_blank" href="https://opensource.org/licenses/MIT">giấy phép MIT</a>.</p>
+	<p class="intro">Đây là nơi tập hợp các dự án Machine Learning của tôi sử dụng các kiến thức đã được trình bày trong blog này.</p>
 	
     <ul class="posts noList">
         <li>
