@@ -6,8 +6,8 @@ title: Liên hệ
 <div id="contact">
   <h2 class="pageTitle">{{ page.title }}</h2>
   <div class="contactContent">
-    <p class="intro">Nếu bạn có thắc mắc, góp ý hoặc đơn giản muốn liên hệ, bạn có thể gửi tin nhắn tới tôi bằng biểu mẫu bên cạnh. Tôi sẽ trả lời bạn ngay khi có thể.</p>
-    <p>Bạn cũng có thể <a target="_blank" href="mailto:dathoangnd@gmail.com">gửi email</a> cho tôi hoặc thông qua mạng xã hội có đường dẫn phía cuối trang.</p>
+    <p class="intro">Nếu bạn có thắc mắc hoặc góp ý, bạn có thể gửi tin nhắn tới tôi bằng biểu mẫu bên cạnh. Tôi sẽ trả lời bạn ngay khi có thể.</p>
+    <p>Bạn cũng có thể <a target="_blank" href="mailto:dathoangnd@gmail.com">gửi email</a> cho tôi nếu muốn liên hệ trực tiếp.</p>
   </div>
   <form action="https://formspree.io/xzbapqpa" method="POST">
     <label for="name">Tên bạn</label>
