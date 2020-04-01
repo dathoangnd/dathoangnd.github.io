@@ -1,24 +1,19 @@
 ---
 layout: default
-title: About Long Haul
+title: Về tôi
 ---
 
 <div class="post">
-	<h1 class="pageTitle">About Long Haul</h1>
-	<img src="{{ '/assets/img/touring.jpg' | prepend: site.baseurl }}" alt="">
-	<p class="intro">Long Haul is a minimal, long form <a href="http://jekyllrb.com">Jekyll</a> Theme. It can be used as is or customized to your hearts desire.</p>
-	<p>Long Haul was created in honor of all the hard working touring bicycles that have traversed the globe time and time again. Take it for a spin.</p>
-	<h2>Features</h2>
+	<h2 class="pageTitle">{{ page.title }}</h2>
+	<p class="intro">Cảm ơn bạn đã ghe thăm blog của tôi, điều đó chứng tỏ bạn có cùng sự quan tâm với tôi về Machine Learning và mong muốn xây dựng một thế giới tốt đẹp hơn.</p>
+	<p>Tôi là người đam mê công nghệ, luôn muốn tìm tòi khám phá những lĩnh vực mới. Từ năm 2017, tôi bắt đầu học về Machine Learning và nhận ra đây sẽ là thứ có thể thay đổi thế giới trong tương lai.</p>
+	<p>Tôi tạo ra blog này với hai mục đích: thứ nhất là để ghi chép lại những thứ mình đã học, thứ hai là để chia sẻ kiến thức với người khác theo cách của mình.</p>
+	<p>Blog này vốn được xuất bản trên Blogger nhưng tôi đã chuyển sang sử dụng trang tĩnh để có thể mang lại trải nghiệm tốt hơn cho bạn đọc. Nếu bạn đã đọc blog của tôi trước đây và mong muốn sử dụng phiên bản cũ, bạn có thể truy cập tới đó tại <a target="_blank" href="https://dathoangnd.blogspot.com">dathoangnd.blogspot.com</a>.</p>
+	<h2>Tại sao nên đọc blog này?</h2>
 	<ul>
-		<li>Built with SASS + GULP + BROWSERSYNC + AUTOPREFIXER</li>
-  		<li>SVG Social Icons from <a href="http://customizr.net/icons/">Customizr</a></li>
-  		<li><a href="http://responsive-nav.com/">Responsive Nav Menu</a></li>
-  		<li><a href="https://github.com/snaptortoise/jekyll-rss-feeds">XML Feed for RSS Readers</a></li>
-  		<li>Contact Form via <a href="http://formspree.io/">Formspree</a></li>
-      <li>5 Post Loop with excerpt on Home Page</li>
-  		<li>Previous / Next Post Navigation</li>
-      <li>Estimated Reading Time for posts</li>
-  		<li><a href="https://github.com/adobe-webplatform/dropcap.js">Drop Cap</a> on posts</li>
-  		<li><a href="http://typecast.com/blog/a-more-modern-scale-for-web-typography">A Better Type Scale</a></li>
+		<li>Nội dung đơn giản, dễ hiểu.</li>
+  		<li>Các bài thực hành sử dụng Javascript và thực thi code ngay trên trình duyệt, không cần cài thêm bất cứ thứ gì để bắt đầu.</li>
+  		<li>Đầy đủ từ cơ bản tới nâng cao.</li>
+  		<li>Hoàn toàn miễn phí.</li>
   	</ul>
 </div>

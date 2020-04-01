@@ -4,16 +4,12 @@
   "description": "A minimal, type-focused Jekyll theme. ",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "node-sass -w assets/scss/style.scss assets/css/style.css"
   },
   "author": "Brian Maier Jr.",
   "license": "MIT",
   "devDependencies": {
-    "browser-sync": "^2.26.3",
-    "gulp": "^3.9.0",
-    "gulp-autoprefixer": "1.0.0",
-    "gulp-cssnano": "^2.1.2",
-    "gulp-sass": "^2.1.0"
+    "node-sass": "^4.13.1"
   },
   "repository": {
     "type": "git",

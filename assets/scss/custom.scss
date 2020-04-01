@@ -1,0 +1,31 @@
+.posts li:before {
+    content: none;
+}
+
+.nav-toggle {
+    &:hover {
+        background-color: initial;
+    }
+
+    svg {
+        fill: white;
+    }
+}
+
+.postNav {
+    border-bottom: none;
+}
+
+.project-desc {
+    margin: 0 0 2rem !important;
+}
+
+.post {
+    h3 {
+        color: $primary-color;
+    }
+
+    h4 {
+        color: $orange;
+    }
+}

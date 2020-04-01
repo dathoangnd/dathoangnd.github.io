@@ -3,7 +3,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <title>{{ page.title }}</title>
+    <title>{{ page.title }} - Dat Hoang's Blog</title>
 
     <!-- Open Graph Meta -->
     <meta content="{{ site.title }}" property="og:site_name">
@@ -32,7 +32,7 @@
     {% if page.image %}
       <meta content="{{ site.url }}/assets/img/{{ page.image }}" property="og:image">
     {% else %}
-      <meta content="{{ '/assets/img/touring.jpg' | prepend: site.url }}" property="og:image">
+      <meta content="{{ '/assets/img/background.jpeg' | prepend: site.url }}" property="og:image">
     {% endif %}
 
     <!-- Twitter Cards -->
@@ -55,7 +55,7 @@
     {% if page.image %}
       <meta name="twitter:image:src" content="{{ site.url }}/assets/img/{{ page.image }}">
     {% else %}
-      <meta name="twitter:image:src" content="{{ '/assets/img/touring.jpg' | prepend: site.url }}">
+      <meta name="twitter:image:src" content="{{ '/assets/img/background.jpeg' | prepend: site.url }}">
     {% endif %}
 
 

@@ -116,7 +116,6 @@ MENU STYLING
   float: right;
   line-height: 2em;
   margin-top: .5em;
-  background-color: $background-color;
   border-radius: 4px;
   padding: 0 .5em;
   color: white;
@@ -128,6 +127,10 @@ MENU STYLING
   &:hover {
   	color: white;
   	background-color: darken($background-color, 10%);
+  }
+
+  svg {
+	fill: $background-color;
   }
 }
 
@@ -177,7 +180,7 @@ HEADER STYLING
 
 .header {
 	background-color: $background-color;
-	background-image: url('../img/touring.jpg');
+	background-image: url('../img/background.jpeg');
 	background-size: cover;
 	background-position: center center;
 	color: white;
