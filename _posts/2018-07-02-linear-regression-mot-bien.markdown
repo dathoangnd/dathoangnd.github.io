@@ -17,7 +17,7 @@ Linear Regression thuộc loại Supervised Learning, trong đó giá trị củ
 Linear Regression một biến</h4>
 Nếu mỗi input chỉ chứa một biến thì thuật toán được gọi là Linear Regression một biến.
 
-Quay lại bài toán tìm giá căn nhà đã được nhắc đến ở bài&nbsp;<a href="https://dathoangnd.blogspot.com/2018/07/machine-learning-la-gi.html" rel="noopener" target="_blank">giới thiệu Machine Learning</a>, giá của mỗi căn nhà được giả định chỉ phụ thuộc vào một biến duy nhất là diện tích và bỏ qua các yếu tố khác. Nhiệm vụ của của ta là cài đặt một thuật toán để tìm ra đường thẳng biểu diễn sự phụ thuộc giữa giá nhà và diện tích một cách chính xác nhất.
+Quay lại bài toán tìm giá căn nhà đã được nhắc đến ở bài&nbsp;<a href="https://www.dathoangblog.com/2018/07/machine-learning-la-gi.html" rel="noopener" target="_blank">giới thiệu Machine Learning</a>, giá của mỗi căn nhà được giả định chỉ phụ thuộc vào một biến duy nhất là diện tích và bỏ qua các yếu tố khác. Nhiệm vụ của của ta là cài đặt một thuật toán để tìm ra đường thẳng biểu diễn sự phụ thuộc giữa giá nhà và diện tích một cách chính xác nhất.
 
 Thuật toán ta cần sử dụng chính là Linear Regression một biến. Khi đó, ta có thể tìm ra được đường thẳng trên hệ trục tọa độ hai chiều biểu diễn sự phụ thuộc giữa giá nhà và diện tích. Ở đồ thị dưới đây, các điểm màu xanh ứng với các input cho trước, các input này chỉ chứa một biến duy nhất là diện tích; đường thẳng cần tìm là đường màu đỏ.
 
@@ -129,7 +129,7 @@ $X^{T}X$ là một ma trận vuông và nếu nó khả nghịch ta có tính ng
 
 $w = (X^{T}X)^{-1}X^{T}y$
 
-Với bài này, do chỉ có 1 biến duy nhất nên $X^{T}X$ luôn khả nghịch. Song để đồng bộ công thức với bài <a href="https://dathoangnd.blogspot.com/2018/07/linear-regression-nhieu-bien.html" rel="noopener" target="_blank">Thuật toán Linear Regression nhiều biến</a>&nbsp;ta sẽ sử dụng <b>ma trận giả đảo</b>.
+Với bài này, do chỉ có 1 biến duy nhất nên $X^{T}X$ luôn khả nghịch. Song để đồng bộ công thức với bài <a href="https://www.dathoangblog.com/2018/07/linear-regression-nhieu-bien.html" rel="noopener" target="_blank">Thuật toán Linear Regression nhiều biến</a>&nbsp;ta sẽ sử dụng <b>ma trận giả đảo</b>.
 
 Ma trận giả đảo của ma trận A được ký hiệu là $A^{+}$ và có một số tính chất tương tự ma trận nghịch đảo
 
@@ -174,9 +174,9 @@ $w = (X^{T}X)^{+}X^{T}y$
 Bạn đang nghĩ gì?</h3>
 Bạn vừa được học thuật toán Linear Regression một biến - một thuật toán cơ bản và quan trọng.
 
-Trong bài tiếp theo, chúng ta sẽ bắt đầu đụng chạm đến code và <a href="https://dathoangnd.blogspot.com/2018/07/ung-dung-linear-regression-mot-bien.html" rel="noopener" target="_blank">ứng dụng thuật toán Linear Regression một biến</a> để giải quyết bài toán thực tế. Thực hành luôn là cách học tốt nhất!
+Trong bài tiếp theo, chúng ta sẽ bắt đầu đụng chạm đến code và <a href="https://www.dathoangblog.com/2018/07/ung-dung-linear-regression-mot-bien.html" rel="noopener" target="_blank">ứng dụng thuật toán Linear Regression một biến</a> để giải quyết bài toán thực tế. Thực hành luôn là cách học tốt nhất!
 
-Bạn cũng sẽ được học <a href="https://dathoangnd.blogspot.com/2018/07/linear-regression-nhieu-bien.html" rel="noopener" target="_blank">thuật toán Linear Regression nhiều biến</a> và <a href="https://dathoangnd.blogspot.com/2018/07/nonlinear-regression.html" rel="noopener" target="_blank">thuật toán Nonlinear Regression</a> (Hồi quy phi tuyến tính) trong khóa học này.
+Bạn cũng sẽ được học <a href="https://www.dathoangblog.com/2018/07/linear-regression-nhieu-bien.html" rel="noopener" target="_blank">thuật toán Linear Regression nhiều biến</a> và <a href="https://www.dathoangblog.com/2018/07/nonlinear-regression.html" rel="noopener" target="_blank">thuật toán Nonlinear Regression</a> (Hồi quy phi tuyến tính) trong khóa học này.
 
 Để kết thúc bài này, xin hỏi bạn vài câu
 

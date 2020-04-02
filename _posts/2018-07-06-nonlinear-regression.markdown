@@ -4,15 +4,15 @@ title:  "Bài 5: Thuật Toán Nonlinear Regression"
 description: "Bài này sẽ hướng dẫn bạn tìm hiểu thuật toán Nonlinear Regression trong Machine Learning - thuật toán dự đoán thông tin mới dựa trên dữ kiện cho trước."
 ---
 
-Bài này sẽ hướng dẫn bạn tìm hiểu thuật toán&nbsp;Nonlinear Regression - thuật toán tổng quát hơn của <a href="https://dathoangnd.blogspot.com/2018/07/linear-regression-mot-bien.html" rel="noopener" target="_blank">Linear Regression</a>.
+Bài này sẽ hướng dẫn bạn tìm hiểu thuật toán&nbsp;Nonlinear Regression - thuật toán tổng quát hơn của <a href="https://www.dathoangblog.com/2018/07/linear-regression-mot-bien.html" rel="noopener" target="_blank">Linear Regression</a>.
 
 Bằng thuật toán này, chúng ta có thể dự đoán được thông tin mới dựa trên các dữ liệu cho trước khi thuật toán Linear Regression không áp dụng được hoặc cho kết quả quá sai lệch.
 
-Bạn cũng sẽ được <a href="https://dathoangnd.blogspot.com/2018/07/ung-dung-nonlinear-regression.html" rel="noopener" target="_blank">ứng dụng thuật toán Nonlinear Regression</a> trong một dự án thực tế ở bài tiếp theo.
+Bạn cũng sẽ được <a href="https://www.dathoangblog.com/2018/07/ung-dung-nonlinear-regression.html" rel="noopener" target="_blank">ứng dụng thuật toán Nonlinear Regression</a> trong một dự án thực tế ở bài tiếp theo.
 <!--more-->
 <h3>
 Vấn đề đối với thuật toán Linear Regression</h3>
-Trong bài <a href="https://dathoangnd.blogspot.com/2018/07/linear-regression-nhieu-bien.html" rel="noopener" target="_blank">Linear Regression nhiều biến</a>, tôi đã đặt một câu hỏi cho bạn là:
+Trong bài <a href="https://www.dathoangblog.com/2018/07/linear-regression-nhieu-bien.html" rel="noopener" target="_blank">Linear Regression nhiều biến</a>, tôi đã đặt một câu hỏi cho bạn là:
 
 <i>Nếu các điểm dữ liệu của bộ dữ liệu đào tạo có xu hướng xếp thành một đường cong, mặt cong hoặc một siêu mặt cong thì liệu có thể áp dụng thuật toán Linear Regression được không?</i>
 

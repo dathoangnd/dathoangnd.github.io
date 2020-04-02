@@ -4,9 +4,9 @@ title:  "Bài 4: Ứng Dụng Thuật Toán Linear Regression Nhiều Biến"
 description: "Cách ứng dụng thuật toán Linear Regression nhiều biến trong Machine Learning để dự đoán giá nhà dựa trên các thông tin cho trước."
 ---
 
-Trong bài này, chúng ta sẽ ứng dụng <a href="https://dathoangnd.blogspot.com/2018/07/linear-regression-nhieu-bien.html" rel="noopener" target="_blank">thuật toán Linear Regression nhiều biến</a> đã được học ở bài trước&nbsp;để giải một bài toán thực tế.
+Trong bài này, chúng ta sẽ ứng dụng <a href="https://www.dathoangblog.com/2018/07/linear-regression-nhieu-bien.html" rel="noopener" target="_blank">thuật toán Linear Regression nhiều biến</a> đã được học ở bài trước&nbsp;để giải một bài toán thực tế.
 
-Qua bài này, chúng ta sẽ giải quyết triệt để bài toán dự đoán giá nhà đã được đặt ra từ bài <a href="https://dathoangnd.blogspot.com/2018/07/machine-learning-la-gi.html" rel="noopener" target="_blank">giới thiệu Machine Learning</a>.
+Qua bài này, chúng ta sẽ giải quyết triệt để bài toán dự đoán giá nhà đã được đặt ra từ bài <a href="https://www.dathoangblog.com/2018/07/machine-learning-la-gi.html" rel="noopener" target="_blank">giới thiệu Machine Learning</a>.
 <!--more-->
 <h3>
 Đặt vấn đề</h3>

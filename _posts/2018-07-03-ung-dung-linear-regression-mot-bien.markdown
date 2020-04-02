@@ -4,7 +4,7 @@ title:  "Bài 2: Ứng Dụng Thuật Toán Linear Regression Một Biến"
 description: "Cách ứng dụng thuật toán Linear Regression một biến trong Machine Learning để dự đoán huyết áp tâm thu của những người ở độ tuổi khác nhau."
 ---
 
-Trong bài này, chúng ta sẽ ứng dụng <a href="https://dathoangnd.blogspot.com/2018/07/linear-regression-mot-bien.html" rel="noopener" target="_blank">thuật toán Linear Regression một biến</a> đã được học ở bài trước&nbsp;để giải một bài toán thực tế.
+Trong bài này, chúng ta sẽ ứng dụng <a href="https://www.dathoangblog.com/2018/07/linear-regression-mot-bien.html" rel="noopener" target="_blank">thuật toán Linear Regression một biến</a> đã được học ở bài trước&nbsp;để giải một bài toán thực tế.
 
 Đây là bài thực hành đầu tiên trong khóa học, và chúng ta bắt đầu đụng đến code để nghiên cứu Machine Learning.
 <!--more-->
@@ -12,7 +12,7 @@ Trong bài này, chúng ta sẽ ứng dụng <a href="https://dathoangnd.blogspo
 Cài đặt môi trường thực hành</h3>
 Do đây là bài thực hành đầu tiên nên tôi sẽ giới thiệu sơ qua các công cụ chúng ta sử dụng để nghiên cứu Machine Learning.
 
-Như đã đề cập trong bài&nbsp;<a href="https://dathoangnd.blogspot.com/2018/07/machine-learning-la-gi.html" rel="noopener" target="_blank">giới thiệu Machine Learning và khóa học</a>, chúng ta sẽ sử dụng ngôn ngữ <strong>JavaScript</strong> trong khóa học này. Tôi chọn JavaScript bởi nó là ngôn ngữ rất quen thuộc với nhiều người. Hơn nữa JavaScript lại chạy ngay trên trình duyệt nên bạn không cần cài bất cứ chương trình dịch nào.
+Như đã đề cập trong bài&nbsp;<a href="https://www.dathoangblog.com/2018/07/machine-learning-la-gi.html" rel="noopener" target="_blank">giới thiệu Machine Learning và khóa học</a>, chúng ta sẽ sử dụng ngôn ngữ <strong>JavaScript</strong> trong khóa học này. Tôi chọn JavaScript bởi nó là ngôn ngữ rất quen thuộc với nhiều người. Hơn nữa JavaScript lại chạy ngay trên trình duyệt nên bạn không cần cài bất cứ chương trình dịch nào.
 
 Chúng ta cũng sẽ sử dụng thư viện&nbsp;<strong><a href="https://github.com/mljs/ml" rel="noopener" target="_blank">ml.js</a></strong> xuyên suốt khóa học. Đây là một thư viện JavaScript với đầy đủ các hàm tính toán ma trận cũng như thuật toán Machine Learning được cài đặt sẵn. Trong các bài thực hành, chúng ta sẽ tự cài đặt thuật toán Machine Learning, sau đó sử dụng hàm có sẵn trong thư viện để đảm bảo thuật toán đã cài đặt đúng.
 

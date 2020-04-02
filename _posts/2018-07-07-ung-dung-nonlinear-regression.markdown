@@ -4,9 +4,9 @@ title:  "Bài 6: Ứng Dụng Thuật Toán Nonlinear Regression"
 description: "Trong bài này chúng ta sẽ ứng dụng thuật toán Nonlinear Regression trong Machine Learning để dự đoán số giờ sử dụng Internet trong từng tháng."
 ---
 
-Trong bài này, chúng ta sẽ ứng dụng <a href="https://dathoangnd.blogspot.com/2018/07/nonlinear-regression.html" rel="noopener" target="_blank">thuật toán Nonlinear Regression</a> đã được học ở bài trước&nbsp;để giải một bài toán thực tế.
+Trong bài này, chúng ta sẽ ứng dụng <a href="https://www.dathoangblog.com/2018/07/nonlinear-regression.html" rel="noopener" target="_blank">thuật toán Nonlinear Regression</a> đã được học ở bài trước&nbsp;để giải một bài toán thực tế.
 
-Do thuật toán Nonlinear Regression được quy về <a href="https://dathoangnd.blogspot.com/2018/07/linear-regression-nhieu-bien.html" rel="noopener" target="_blank">thuật toán Linear Regression</a> nên cách triển khai thuật toán rất giống như bài <a href="https://dathoangnd.blogspot.com/2018/07/ung-dung-linear-regression-nhieu-bien.html" rel="noopener" target="_blank">ứng dụng thuật toán Linear Regression</a>.
+Do thuật toán Nonlinear Regression được quy về <a href="https://www.dathoangblog.com/2018/07/linear-regression-nhieu-bien.html" rel="noopener" target="_blank">thuật toán Linear Regression</a> nên cách triển khai thuật toán rất giống như bài <a href="https://www.dathoangblog.com/2018/07/ung-dung-linear-regression-nhieu-bien.html" rel="noopener" target="_blank">ứng dụng thuật toán Linear Regression</a>.
 <!--more-->
 <h3>
 Đặt vấn đề</h3>
@@ -71,7 +71,7 @@ Ta được kết quả
 <i>Số giờ sử dụng Internet tháng thứ 9 là 454</i>
 <h4>
 Sử dụng hàm có sẵn</h4>
-Việc sử dụng hàm có sẵn giống hệt như ở bài&nbsp;<a href="https://dathoangnd.blogspot.com/2018/07/ung-dung-linear-regression-nhieu-bien.html" rel="noopener" target="_blank">ứng dụng thuật toán Linear Regression nhiều biến</a>.
+Việc sử dụng hàm có sẵn giống hệt như ở bài&nbsp;<a href="https://www.dathoangblog.com/2018/07/ung-dung-linear-regression-nhieu-bien.html" rel="noopener" target="_blank">ứng dụng thuật toán Linear Regression nhiều biến</a>.
 
 <script src="https://gist.github.com/dathoangnd/368c2bd8e606b791dba9dd840555977a.js"></script>
 

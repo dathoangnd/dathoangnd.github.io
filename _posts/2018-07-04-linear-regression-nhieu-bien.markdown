@@ -6,7 +6,7 @@ description: "Bài này sẽ hướng dẫn bạn tìm hiểu thuật toán Line
 
 Bài này sẽ hướng dẫn bạn tìm hiểu thuật toán Linear Regression nhiều biến trong Machine Learning.
 
-Đây là trường hợp mở rộng của <a href="https://dathoangnd.blogspot.com/2018/07/linear-regression-mot-bien.html" rel="noopener" target="_blank">thuật toán Linear Regression một biến</a> mà bạn đã được học.
+Đây là trường hợp mở rộng của <a href="https://www.dathoangblog.com/2018/07/linear-regression-mot-bien.html" rel="noopener" target="_blank">thuật toán Linear Regression một biến</a> mà bạn đã được học.
 
 Bạn sẽ được ứng dụng thuật toán này trong dự án thực tế ở bài tiếp theo.
 <!--more-->
@@ -39,7 +39,7 @@ $\widehat{y} =&nbsp;&nbsp;w_{0} + w_{1}x_{1} + ... +&nbsp;w_{n-1}x_{n-1} + w_{n}
 
 thì thuật toán tìm ra phương trình ở trên gọi là Linear Regression n biến.
 
-Nếu n = 1 thì đó là phương trình đường thẳng và ta đã xét trường hợp này trong bài <a href="https://dathoangnd.blogspot.com/2018/07/linear-regression-mot-bien.html" rel="noopener" target="_blank">thuật toán Linear Regression một biến</a>.
+Nếu n = 1 thì đó là phương trình đường thẳng và ta đã xét trường hợp này trong bài <a href="https://www.dathoangblog.com/2018/07/linear-regression-mot-bien.html" rel="noopener" target="_blank">thuật toán Linear Regression một biến</a>.
 
 Nếu n = 2 thì đó là phương trình mặt phẳng.
 

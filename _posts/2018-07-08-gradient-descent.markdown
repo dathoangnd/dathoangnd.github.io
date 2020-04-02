@@ -12,11 +12,11 @@ Bạn sẽ được áp dụng thuật toán này cùng với Linear Regression 
 <!--more-->
 <h3>
 Vấn đề đối với các thuật toán Machine Learning</h3>
-Cho đến thời điểm này, bạn đã được học 3 thuật toán Machine Learning là <a href="https://dathoangnd.blogspot.com/2018/07/linear-regression-mot-bien.html" rel="noopener" target="_blank">Linear Regression một biến</a>, <a href="https://dathoangnd.blogspot.com/2018/07/linear-regression-nhieu-bien.html" rel="noopener" target="_blank">Linear Regression nhiều biến</a> và <a href="https://dathoangnd.blogspot.com/2018/07/nonlinear-regression.html" rel="noopener" target="_blank">Nonlinear Regression</a>.
+Cho đến thời điểm này, bạn đã được học 3 thuật toán Machine Learning là <a href="https://www.dathoangblog.com/2018/07/linear-regression-mot-bien.html" rel="noopener" target="_blank">Linear Regression một biến</a>, <a href="https://www.dathoangblog.com/2018/07/linear-regression-nhieu-bien.html" rel="noopener" target="_blank">Linear Regression nhiều biến</a> và <a href="https://www.dathoangblog.com/2018/07/nonlinear-regression.html" rel="noopener" target="_blank">Nonlinear Regression</a>.
 
 Qua các bài thực hành, bạn đã được áp dụng những thuật toán này để giải quyết các bài toán thực tế. Xin chúc mừng bạn đã đi được một chặng đường dài. Tôi tin rằng bằng sự kiên trì, bất cứ ai cũng có thể làm nên những điều lớn lao.
 
-Hãy cùng xem lại <a href="https://dathoangnd.blogspot.com/2018/07/linear-regression-nhieu-bien.html" rel="noopener" target="_blank">thuật toán Linear Regression nhiều biến</a>.
+Hãy cùng xem lại <a href="https://www.dathoangblog.com/2018/07/linear-regression-nhieu-bien.html" rel="noopener" target="_blank">thuật toán Linear Regression nhiều biến</a>.
 
 Hàm mất mát của thuật toán là
 
@@ -93,7 +93,7 @@ Thuật toán Gradient Descent dùng để tìm ra điểm mà hàm số đạt 
 
 Trong hình ở trên, nếu ta xuất phát từ vị trí thứ nhất thì thuật toán sẽ dừng lại khi di chuyển đến A, nếu xuất phát từ vị trí thứ hai thì thuật toán dừng lại tại B, nếu xuất phát từ vị trí thứ ba thì thuật toán dừng lại tại C.
 
-Đối với thuật toán Linear Regression, thật may mắn khi hàm mất mát của nó chỉ có một cực tiểu. Do đó ta có thể dùng Gradient Descent để tìm điểm cực tiểu đó cũng chính là điểm mà hàm mất mát đạt giá trị nhỏ nhất. Đây chính xác là những gì chúng ta sẽ làm ở bài <a href="https://dathoangnd.blogspot.com/2018/07/ung-dung-gradient-descent.html" rel="noopener" target="_blank">ứng dụng thuật toán Gradient Descent</a>.
+Đối với thuật toán Linear Regression, thật may mắn khi hàm mất mát của nó chỉ có một cực tiểu. Do đó ta có thể dùng Gradient Descent để tìm điểm cực tiểu đó cũng chính là điểm mà hàm mất mát đạt giá trị nhỏ nhất. Đây chính xác là những gì chúng ta sẽ làm ở bài <a href="https://www.dathoangblog.com/2018/07/ung-dung-gradient-descent.html" rel="noopener" target="_blank">ứng dụng thuật toán Gradient Descent</a>.
 <h4>
 Gradient Descent với hàm nhiều biến</h4>
 Xét hàm số $y = f(x_{1}, x_{2}, ..., x_{n})$ và ta cần tìm điểm cực tiểu của hàm số.
@@ -122,7 +122,7 @@ Cũng giống như hàm một biến, nếu chọn learning rate quá nhỏ, thu
 
 <h3>
 Bình thường hóa dữ liệu</h3>
-Nếu bạn còn nhớ ở bài <a href="https://dathoangnd.blogspot.com/2018/07/nonlinear-regression.html" target="_blank">thuật toán Nonlinear Regression</a>, chúng ta đã đặt ẩn phụ để tự tạo ra biến mới trước khi cài đặt thuật toán.
+Nếu bạn còn nhớ ở bài <a href="https://www.dathoangblog.com/2018/07/nonlinear-regression.html" target="_blank">thuật toán Nonlinear Regression</a>, chúng ta đã đặt ẩn phụ để tự tạo ra biến mới trước khi cài đặt thuật toán.
 
 Một ý tưởng tương tự được áp dụng với Gradient Descent giúp thuật toán hiệu quả hơn.
 

@@ -4,7 +4,7 @@ title:  "Bài 8: Ứng Dụng Thuật Toán Gradient Descent"
 description: "Trong bài này chúng ta sẽ ứng dụng thuật toán Gradient Descent trong Machine Learning để dự đoán huyết áp tâm thu của những người ở độ tuổi khác nhau."
 ---
 
-Trong bài này, ta sẽ giải quyết lại vấn đề dự đoán huyết áp tâm thu của những người ở độ tuổi khác nhau bằng cách ứng dụng <a href="https://dathoangnd.blogspot.com/2018/07/gradient-descent.html" rel="noopener" target="_blank">thuật toán Gradient Descent</a>.
+Trong bài này, ta sẽ giải quyết lại vấn đề dự đoán huyết áp tâm thu của những người ở độ tuổi khác nhau bằng cách ứng dụng <a href="https://www.dathoangblog.com/2018/07/gradient-descent.html" rel="noopener" target="_blank">thuật toán Gradient Descent</a>.
 
 Bài thực hành này nhằm mục đích giúp bạn biết cách áp dụng Gradient Descent - một thuật toán rất quan trọng trong nghiên cứu Machine Learning.
 <!--more-->
@@ -22,7 +22,7 @@ $\widehat{y} =&nbsp;&nbsp;w_{0} + w_{1}x_{1}$
 
 với&nbsp;$\widehat{y}$ là huyết áp tâm thu của người $x_{1}$ tuổi.
 
-Đây chính xác là vấn đề ta đã giải quyết ở bài <a href="https://dathoangnd.blogspot.com/2018/07/ung-dung-linear-regression-mot-bien.html" rel="noopener" target="_blank">ứng dụng thuật toán Linear Regression một biến</a>.
+Đây chính xác là vấn đề ta đã giải quyết ở bài <a href="https://www.dathoangblog.com/2018/07/ung-dung-linear-regression-mot-bien.html" rel="noopener" target="_blank">ứng dụng thuật toán Linear Regression một biến</a>.
 
 Bằng việc tính các đạo hàm riêng của hàm mất mát và giải hệ các đạo hàm riêng bằng 0 ta tìm được kết quả
 
@@ -110,6 +110,6 @@ Mặc dù việc cài đặt Gradient Descent khá phức tạp nhưng đây là
 
 Trong bài này, ta cũng thấy vai trò quan trọng của việc chọn learning rate&nbsp;α. Nếu chương trình chạy quá lâu, hãy tăng&nbsp;α, nếu gặp "màn hình trắng chết chóc", hãy giảm&nbsp;α.
 
-Bây giờ, bạn hãy thử áp dụng thuật toán Gradient Descent để giải quyết bài toán <a href="https://dathoangnd.blogspot.com/2018/07/ung-dung-linear-regression-nhieu-bien.html" rel="noopener" target="_blank">dự đoán giá nhà bằng Linear Regression nhiều biến</a>&nbsp;thay vì áp dụng công thức.
+Bây giờ, bạn hãy thử áp dụng thuật toán Gradient Descent để giải quyết bài toán <a href="https://www.dathoangblog.com/2018/07/ung-dung-linear-regression-nhieu-bien.html" rel="noopener" target="_blank">dự đoán giá nhà bằng Linear Regression nhiều biến</a>&nbsp;thay vì áp dụng công thức.
 
 Bạn có tìm ra kết quả như trước không? Có những khó khăn gì khi xử lý hàm nhiều biến?
