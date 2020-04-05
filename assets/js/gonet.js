@@ -181,7 +181,7 @@ function NewNN(nInputs, nHiddens, nOutputs, isRegression) {
             for (let i = 0; i < nn.NNodes[k]; i++) {
                 for (let j = 0; j < nn.NNodes[k+1]; j++) {
                     let change = deltas[k][j] * nn.Activations[k][i]
-                    nn.Weights[k][i][j] = nn.Weights[k][i][j] - (lRate*change*(1-mFactor) + mFactor*nn.Changes[k][i][j])
+                    nn.Weights[k][i][j] = nn.Weights[k][i][j] - (lRate*change*(1-mFactor) + lRate*mFactor*nn.Changes[k][i][j])
                     nn.Changes[k][i][j] = change
                 }
             }
