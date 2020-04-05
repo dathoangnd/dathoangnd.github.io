@@ -1,0 +1,463 @@
+{% raw %}
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js"></script>
+  <script src="/assets/js/gonet.js"></script>
+
+  <script>
+    Vue.component('training-sample', {
+      props: {
+        data: Array,
+        index: Number
+      },
+      template: `
+        <div class="training-sample">
+          <canvas ref="canvas" width="48" height="48" />
+          <div class="remove-training-sample noselect" @click="$emit('removesample', index)">
+            <span class="material-icons">clear</span>
+          </div>
+        </div>
+      `,
+      mounted() {
+        let canvas = this.$refs.canvas;
+        let context = canvas.getContext("2d");
+        let imgData = context.createImageData(48, 48);
+
+        for (let i = 0; i < imgData.data.length; i += 4) {
+          let col = Math.floor((i / 4) / 48);
+          let row = (i / 4) % 48;
+          let value = this.data[row][col];
+          imgData.data[i+0] = value.r;
+          imgData.data[i+1] = value.g;
+          imgData.data[i+2] = value.b;
+          imgData.data[i+3] = 255;
+        }
+
+        context.putImageData(imgData, 0, 0);
+      }
+    })
+
+    Vue.component('training-class', {
+      props: {
+        name: String,
+        samples: Array,
+        index: Number,
+        samplesadding: Boolean
+      },
+      data() {
+        return {
+          nameEditing: false,
+          tempName: ''
+        }
+      },
+      template: `
+        <div class="training-class-wrapper" @mouseup="cancelCaptureSample">
+          <div class="training-class-header">
+            <div class="training-class-name">
+              <span :contenteditable="nameEditing" ref="name" @input="tempName = $refs.name.innerText">{{ name }}&nbsp;</span>
+              <span @click="editName()">
+                <template v-if="nameEditing">
+                  <i class="material-icons">done</i>
+                </template>
+                <template v-else>
+                  <i class="material-icons">edit</i>
+                </template>
+              </span>
+            </div>
+            <div class="training-class-remove-button" title="Xóa">
+              <span @click="$emit('remove-class', index)"><i class="material-icons">delete_outline</i></span>
+            </div>
+          </div>
+
+          <div class="training-class-samples">
+            <div class="training-class-sample-add-button" @click="openWebcam" v-if="!samplesadding">
+              <i class="material-icons">
+                videocam
+              </i> Thêm mẫu đào tạo
+            </div>
+            <div class="training-class-sample-webcam-wrapper" v-else>
+              <video autoplay ref="webcam"></video>
+              <div class="training-class-sample-add-button noselect" @mousedown="captureSample" @mouseup="cancelCaptureSample">
+                Nhấn giữ để chụp mẫu
+              </div>
+              <div class="training-class-sample-webcam-close-button" @click="$emit('changewebcam', -1)">
+                <i class="material-icons">
+                  close
+                </i>
+              </div>
+            </div>
+            <p class="training-class-size">{{ this.samples.length }} mẫu</p>
+            <ul class="training-class-samples-list" ref="sampleList">
+              <li v-for="(sample, index) in samples" :key="Math.random() + index">
+                <training-sample :index="index" :data="sample" @removesample="removeSample" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      `,
+      methods: {
+        editName() {
+          this.nameEditing = !this.nameEditing;
+          if (this.nameEditing) {
+            setTimeout(() => {
+              this.$refs.name.focus();
+            }, 0);
+          } else {
+            this.tempName = this.tempName.replace(/\n/g, ' ').trim();
+            if (this.tempName == '') {
+              this.tempName = this.name;
+            }
+            
+            this.$refs.name.innerText = this.tempName;
+            this.$emit('name-changed', {index: this.index, name: this.tempName});
+          }
+        },
+        openWebcam() {
+          this.$emit('changewebcam', this.index);
+          navigator.mediaDevices.getUserMedia({video: true})
+            .then((stream) => {
+              this.$refs.webcam.srcObject = stream;
+            });
+        },
+        captureSample() {
+          let canvas = document.createElement("canvas");
+          let context = canvas.getContext('2d');
+          context.drawImage(this.$refs.webcam, 0, 0, this.$refs.webcam.videoWidth, this.$refs.webcam.videoHeight, 0, 0, 48, 48);
+          
+          let capture = () => {
+            let newImage = [];
+            for (let i = 0; i < 48; i++) {
+              newImage.push([]);
+              for (let j = 0; j < 48; j++) {
+                let image = context.getImageData(i, j, 1, 1).data;
+                newImage[i].push({r: image[0], g: image[1], b: image[2]});
+              }
+            }
+      
+            this.$emit('capture-image', {index: this.index, image: newImage});
+            this.$refs.sampleList.scrollTop = this.$refs.sampleList.scrollHeight;
+          }
+      
+          capture();
+          window.captureImageInterval = setInterval(capture, 50);
+        },
+        removeSample(index) {
+          this.$emit('removesample', {classIndex: this.index, index: index});
+        },
+        cancelCaptureSample() {
+          clearInterval(window.captureImageInterval);
+        }
+      }
+    });
+
+    Vue.component('trainging-box', {
+      props: {
+        training: Boolean
+      },
+      template: `
+        <div class="training-class-wrapper">
+          <div class="training-class-header">
+            <div class="training-class-name">
+              <span>Đào tạo</span>
+            </div>
+          </div>
+
+          <div class="training-class-samples" style="text-align: center;">
+            <div class="training-class-sample-add-button noselect" @click="$emit('start-train')">
+              <template v-if="training">
+                <i class="material-icons spinner">
+                  autorenew
+                </i> Đang học
+              </template>
+              <template v-else>
+                <i class="material-icons">
+                  directions_run
+                </i> Bắt đầu
+              </template>
+            </div>
+          </div>
+        </div>
+      `
+    });
+    
+    Vue.component('model-box', {
+      props: {
+        prediction: Boolean,
+        output: Array
+      },
+      computed: {
+        maxIndex() {
+          let maxIndex = 0;
+          for (let i = 1; i < this.output.length; i++) {
+            if (this.output[i].prob > this.output[maxIndex].prob) {
+              maxIndex = i;
+            }
+          }
+          return maxIndex;
+        }
+      },
+      template: `
+        <div class="training-class-wrapper">
+          <div class="training-class-header">
+            <div class="training-class-name">
+              <span>Mô hình</span>
+            </div>
+          </div>
+
+          <div class="training-class-samples">
+            <div class="training-class-sample-webcam-wrapper">
+              <div v-show="prediction">
+                <video autoplay ref="webcam"></video>
+                <ul class="prediction-output">
+                  <div class="class-names">
+                    <li v-for="(item, index) in output" :key="index">
+                      <span :class="'class-name' + (maxIndex == index ? ' max-index' : '')">{{ item.name }}</span>
+                    </li>
+                  </div>
+                  <div class="class-probs">
+                    <li v-for="(item, index) in output" :key="index">
+                      <span :class="'class-prob' + (maxIndex == index ? ' max-index' : '')">: {{ Math.round(item.prob * 100) }}%</span>
+                    </li>
+                  </div>
+                </ul>
+              </div>
+              <p v-show="!prediction" style="font-size: 18px; color: #212121; font-weight: lighter;">Bạn cần đào tạo mô hình trước khi sử dụng để nhận diện hình ảnh.</p>
+            </div>
+          </div>
+        </div>
+      `,
+      methods: {
+        openWebcam() {
+          navigator.mediaDevices.getUserMedia({video: true})
+            .then((stream) => {
+              this.$refs.webcam.srcObject = stream;
+              this.captureSample();
+            });
+        },
+
+        captureSample() {
+          let canvas = document.createElement("canvas");
+          let context = canvas.getContext('2d');
+          
+          let capture = () => {
+            context.drawImage(this.$refs.webcam, 0, 0, this.$refs.webcam.videoWidth, this.$refs.webcam.videoHeight, 0, 0, 48, 48);
+            let newImage = [];
+            for (let i = 0; i < 48; i++) {
+              newImage.push([]);
+              for (let j = 0; j < 48; j++) {
+                let image = context.getImageData(i, j, 1, 1).data;
+                newImage[i].push({r: image[0], g: image[1], b: image[2]});
+              }
+            }
+          
+            this.$emit('capture-image', newImage);
+          }
+    
+          window.captureImageInterval = setInterval(capture, 100);
+        },
+        cancelCaptureSample() {
+          clearInterval(window.captureImageInterval);
+        }
+      },
+      watch: {
+        prediction() {
+          if (this.prediction) {
+            setTimeout(() => {
+              this.openWebcam();
+            }, 100);
+          } else {
+            this.cancelCaptureSample();
+          }
+        }
+      }
+    });
+
+    new Vue({
+      el: '#app-container',
+      data: {
+        data: [
+          {
+            name: "Lớp 1",
+            samples: []
+          },
+          {
+            name: "Lớp 2",
+            samples: []
+          }
+        ],
+        epochs: 10000,
+        learningRate: 0.03,
+        momentumFactor: 0.2,
+        isTraining: false,
+        webcamPosition: null,
+        model: null,
+        testOutput: []
+      },
+      methods: {
+        nameChanged(values) {
+          let index = values.index;
+          if (this.data.length > index) {
+            let name = values.name;
+            this.data[index].name = name;
+          }
+        },
+        removeClass(index) {
+          if (this.data.length > index) {
+            this.data = this.data.filter(function(value, i) {
+              if (i == index) {
+                return false;
+              }
+
+              return true;
+            })
+          }
+        },
+        addClass() {
+          this.data.push({
+            name: `Lớp ${this.data.length+1}`,
+            samples: []
+          })
+        },
+        changeWebcam(index) {
+          this.webcamPosition = index;
+        },
+        captureImage(values) {
+          this.model = null;
+          let index = values.index;
+          if (this.data.length > index) {
+            let image = values.image;
+            this.data[index].samples.push(image);
+          }
+        },
+        removeSample({classIndex, index}) {
+          this.model = null;
+          this.data[classIndex].samples.splice(index, 1);
+        },
+        startTraining() {
+          if (this.isTraining) {
+          return false; 
+          }
+          if (!this.trainable) {
+            alert("Mỗi lớp đào tạo phải có ít nhất 5 mẫu.");
+            return false;
+          }
+
+          this.webcamPosition = -1;
+          this.isTraining = true;
+          setTimeout(() => {
+            let trainingData = [];
+            let classNumber = this.data.length;
+            for (let i = 0; i < classNumber; i++) {
+              for (let j = 0; j < this.data[i].samples.length; j++) {
+                let input = [];
+                for (let i = 0; i < 6*6*3; i++) {
+                  input.push(0);
+                }
+                for (let k = 0; k < 6; k++) {
+                  for (let l = 0; l < 6; l++) {
+                    for (let m = 0; m < 8; m++) {
+                      for (let n = 0; n < 8; n++) {
+                        input[k*6+l] += this.data[i].samples[j][k*8+m][l*8+n].r;
+                        input[k*6+l+36] += this.data[i].samples[j][k*8+m][l*8+n].g;
+                        input[k*6+l+36*2] += this.data[i].samples[j][k*8+m][l*8+n].b;
+                      }
+                    }
+                  }
+                }
+                for (let i = 0; i < 6*6*3; i++) {
+                  input[i] = input[i] / 64 / 256;
+                }
+                let output = [];
+                for (let k = 0; k < i; k++) {
+                  output.push(0);
+                }
+                output.push(1);
+                for (let k = i+1; k < classNumber; k++) {
+                  output.push(0);
+                }
+  
+                trainingData.push([input, output]);
+              }
+            }
+
+            let shuffle = function(deck, random = Math.random) {
+                let length      = deck.length;
+                let clone       = deck.slice(0);
+                let shuffled    = [];
+
+                while(length--) {
+                    shuffled.push(clone.splice(Math.floor(random() * length), 1).shift());
+                }
+
+                return shuffled;
+            };
+
+            trainingData = shuffle(trainingData);
+            
+            let nn = NewNN(6*6*3, [classNumber*2], classNumber, false);
+            let loss = nn.Train(trainingData, this.epochs, this.learningRate, this.momentumFactor, false);
+            if (loss[loss.length-1] / loss[0] > 0.8) {
+              alert("Đào tạo thất bại. Vui lòng kiểm tra lại dữ liệu đào tạo.")
+            }
+
+            this.model = nn;
+            this.isTraining = false;
+          }, 100);
+        },
+        predict(image) {
+          let input = [];
+          for (let i = 0; i < 6*6*3; i++) {
+            input.push(0);
+          }
+
+          for (let k = 0; k < 6; k++) {
+            for (let l = 0; l < 6; l++) {
+              for (let m = 0; m < 8; m++) {
+                for (let n = 0; n < 8; n++) {
+                  input[k*6+l] += image[k*8+m][l*8+n].r;
+                  input[k*6+l+36] += image[k*8+m][l*8+n].g;
+                  input[k*6+l+36*2] += image[k*8+m][l*8+n].b;
+                }
+              }
+            }
+          }
+
+          for (let i = 0; i < 6*6*3; i++) {
+            input[i] = input[i] / 64 / 256;
+          }
+         
+          if (this.model) {
+            let output = this.model.Predict(input);
+            let sum = output.reduce(function(a, b) {
+              return a + b;
+            });
+            
+            let testOutput = [];
+            for (let i = 0; i < this.data.length; i++) {
+              testOutput.push({
+                name: this.data[i].name,
+                prob: output[i] / sum
+              });
+            }
+
+            this.testOutput = testOutput;
+          }
+        }
+      },
+      computed: {
+        trainable() {
+          if (this.data.length == 0) {
+            return false;
+          }
+          for (let i = 0; i < this.data.length; i++) {
+            if (this.data[i].samples.length < 5) {
+              return false;
+            }
+          }
+          return true;
+        }
+      }
+    });
+
+  </script>
+{% endraw %}

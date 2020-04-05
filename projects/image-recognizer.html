@@ -1,0 +1,65 @@
+---
+layout: default
+title: Image recognizer
+custom_head: projects/image-recognizer.html
+custom_scripts: projects/image-recognizer.html
+---
+
+<div class="post">
+	<h2 class="pageTitle">{{ page.title }}</h2>
+	<p class="intro">Sử dụng webcam để đào tạo mô hình Neural Network nhận diện hình ảnh của riêng bạn!</p>
+</div>
+
+<div id="app-container">
+    {% raw %}
+        <div id="image-recognizer-container">
+            <div class="image-recognizer-wrapper">
+                <div class="data-box">
+                    <template v-for="(trainingClass, index) in data">
+                        <training-class :key="index" :index="index" :name="trainingClass.name" :samplesadding="webcamPosition == index" :samples="trainingClass.samples" @name-changed="nameChanged" @remove-class="removeClass" @capture-image="captureImage" @changewebcam="changeWebcam" @removesample="removeSample" />
+                    </template>
+                    
+                </div>
+
+                <div class="training-box">
+                    <div class="trainging-box-nav">
+                        <span class="material-icons">
+                            arrow_right_alt
+                        </span>
+                    </div>
+                    <trainging-box :training="isTraining" @start-train="startTraining"></trainging-box>
+
+                    <div class="trainging-box-nav">
+                        <span class="material-icons">
+                            arrow_right_alt
+                        </span>
+                    </div>
+                    
+                </div>
+
+                <div class="model-box">
+                    <model-box :prediction="model != null && !isTraining" :openwebcam="webcamPosition == -1" :output="testOutput" @capture-image="predict" />
+                </div> 
+            </div>
+        </div>
+
+        <div id="image-recognizer-container">
+            <div class="image-recognizer-wrapper">
+                <div class="data-box">
+                    <div class="add-training-class" @click="addClass">
+                        <i class="material-icons">
+                            add_circle_outline
+                        </i> Thêm lớp
+                    </div>
+                    
+                </div>
+
+                <div class="training-box"> 
+                </div>
+
+                <div class="model-box">
+                </div> 
+            </div>
+        </div>
+    {% endraw %}
+</div>

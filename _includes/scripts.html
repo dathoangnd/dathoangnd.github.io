@@ -18,3 +18,7 @@
 
     });
 </script> 
+
+{% if page.custom_scripts %}
+  {% include {{ page.custom_scripts | prepend: 'custom_scripts/' }} %}
+{% endif %}
