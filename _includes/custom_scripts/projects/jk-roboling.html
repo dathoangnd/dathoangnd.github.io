@@ -1,0 +1,44 @@
+{% raw %}
+    <script>
+        const api = "http://35.232.8.121/write";
+
+        let beginningInput = document.getElementById("beginning");
+        let quantityInput = document.getElementById("quantity");
+        let generateBtn = document.getElementById("generate");
+        let predictBox = document.getElementById("prediction");
+
+        generateBtn.onclick = function() {
+            if (generateBtn.classList.contains("waiting")) {
+                return false;
+            }
+            generateBtn.classList.add("waiting");
+            generateBtn.innerText = "Đang sáng tác";
+            let s = beginningInput.value;
+            let n = quantityInput.value;
+            
+            fetch(`${api}?s=${s}&n=${n}`)
+                .then(
+                    function(response) {
+                        if (response.status !== 200) {
+                            alert("Đã có lỗi. Vui lòng thử lại.");
+                            generateBtn.classList.remove("waiting");
+                            generateBtn.innerText = "Sáng tác";
+                            return;
+                        }
+
+                        // Examine the text in the response
+                        response.text().then(function(data) {
+                            generateBtn.classList.remove("waiting");
+                            generateBtn.innerText = "Sáng tác";
+                            predictBox.innerText = data;
+                        });
+                    }
+                )
+                .catch(function(err) {
+                    alert("Đã có lỗi. Vui lòng thử lại.");
+                    generateBtn.classList.remove("waiting");
+                    generateBtn.innerText = "Sáng tác";
+                });
+        }
+    </script>
+{% endraw %}

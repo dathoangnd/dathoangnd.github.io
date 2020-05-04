@@ -1,0 +1,32 @@
+---
+layout: default
+title: JK. Roboling
+custom_head: projects/jk-roboling.html
+custom_scripts: projects/jk-roboling.html
+---
+
+<div class="post">
+	<h2 class="pageTitle">{{ page.title }}</h2>
+	<p class="intro">Sáng tác truyện Harry Potter như J.K. Rowling.</p>
+</div>
+
+<div id="app-container">
+    {% raw %}
+        <div id="text-generator-container">
+            <div class="predict-data-box">
+                <div class="predict-data-title">
+                    <h3>Sinh văn bản</h3>
+                </div>
+                <div class="predict-box-header">
+                    <input id="beginning" placeholder="Mở đầu" />
+                    <input id="quantity" type="number" value="500" min="100" max="5000" /> ký tự
+                    <div>
+                        <button id="generate">Sáng tác</button>
+                    </div>
+                </div>
+                <div id="prediction" class="predict-box-body">
+                </div>
+            </div>
+        </div>
+    {% endraw %}
+</div>
