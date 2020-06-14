@@ -38,8 +38,8 @@ Và còn rất nhiều ứng dụng khác của Machine Learning như dịch ng�
 <div class="separator" style="clear: both; text-align: center;">
 <iframe allowfullscreen="" class="YOUTUBE-iframe-video" data-thumbnail-src="https://i.ytimg.com/vi/qv6UVOQ0F44/0.jpg" frameborder="0" height="400" src="https://www.youtube.com/embed/qv6UVOQ0F44?feature=player_embedded" width="480"></iframe></div>
 
-<h4>
-Machine Learning làm việc đó như thế nào?</h4>
+<h3>
+Machine Learning làm việc đó như thế nào?</h3>
 Bạn có nhớ khi tập đi xe đạp, bạn đã ngã bao nhiêu lần không? Chắc không ai nhớ được, nhưng đó phải là một con số không nhỏ. Lần đầu tiên luôn là lần tệ nhất. Nhưng dần dần, bạn tự rút ra kinh nghiệm để thực hiện các lần sau tốt hơn. Bỗng một ngày đẹp trời nọ, BUM, bạn biết đi xe đạp!
 
 Tương tự như vậy, Machine Learning dựa trên các kinh nghiệm có sẵn để đưa ra kết quả. Ở đây kinh nghiệm có sẵn được cụ thể hóa bằng các bộ dữ liệu cho trước, và kết quả là giá trị đưa ra đối với một bộ dữ liệu mới nhờ học hỏi các dữ liệu có sẵn ban đầu.
@@ -54,8 +54,8 @@ Lấy ví dụ với bài toán <a href="https://www.dathoangblog.com/2018/07/un
 Vấn đề ở đây là ta cần vẽ đường thẳng kia sao cho sự sai lệch là nhỏ nhất (tôi vẫn chưa định nghĩa cụ thể công thức tính độ sai lệch này là gì nhưng có thể bạn sẽ hình dung được). Nếu đưa các dữ liệu này vào máy tính, ta có thể viết một thuật toán nào đó giúp tính ra phương trình đường thẳng biểu diễn mối liên hệ giữa giá nhà và diện tích một cách chính xác nhất. Đó chính là một thuật toán Machine Learning.
 
 Tôi tin là sau ví dụ này, bạn đã hiểu cách Machine Learning hoạt động, hay ít nhất là một kiểu hoạt động. Ngoài ra, còn nhiều loại thuật toán Machine Learning khác nữa mà ta sẽ tìm hiểu ngay sau đây.
-<h4>
-Phân loại thuật toán Machine Learning</h4>
+<h3>
+Phân loại thuật toán Machine Learning</h3>
 Có nhiều cách phân loại thuật toán Machine Learning khác nhau nhưng để bạn dễ hiểu nhất, cũng như không làm bạn thấy hoảng sợ ngay khi mới bắt đầu, tôi sẽ chỉ trình bày cách phân loại đơn giản dựa trên phương thức học. Theo cách phân loại này, các thuật toán Machine Learning được chia làm hai nhóm chính dưới đây
 <h4>
 Supervised Learning (Học có giám sát)</h4>
