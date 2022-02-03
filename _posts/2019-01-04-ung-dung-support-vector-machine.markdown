@@ -1,4 +1,5 @@
 ---
+tag: learn
 layout: post
 title:  "Bài 12: Ứng Dụng Thuật Toán Support Vector Machine"
 description: "Trong bài này chúng ta sẽ ứng dụng thuật toán Support Vector Machine trong Machine Learning để dự đoán tên loài hoa dựa trên các số đo cho trước."

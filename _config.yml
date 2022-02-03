@@ -12,8 +12,10 @@ plugins: [jekyll-paginate]
 paginate: 100
 
 navigation:
-  - title: Học
+  - title: Nhật ký
     url: /
+  - title: Machine Learning
+    url: /machine-learning
   - title: Dự án
     url: /projects
   - title: Liên hệ

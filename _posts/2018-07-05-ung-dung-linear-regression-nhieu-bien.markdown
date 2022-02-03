@@ -1,4 +1,5 @@
 ---
+tag: learn
 layout: post
 title:  "Bài 4: Ứng Dụng Thuật Toán Linear Regression Nhiều Biến"
 description: "Cách ứng dụng thuật toán Linear Regression nhiều biến trong Machine Learning để dự đoán giá nhà dựa trên các thông tin cho trước."

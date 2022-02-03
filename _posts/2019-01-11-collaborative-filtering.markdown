@@ -1,4 +1,5 @@
 ---
+tag: learn
 layout: post
 title:  "Bài 19: Thuật Toán Collaborative Filtering"
 description: "Bài này sẽ hướng dẫn bạn tìm hiểu thuật toán Collaborative Filtering - thuật toán được sử dụng trong các hệ thống gợi ý."

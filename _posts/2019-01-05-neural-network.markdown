@@ -1,4 +1,5 @@
 ---
+tag: learn
 layout: post
 title:  "Bài 13: Thuật Toán Neural Network"
 description: "Bài này sẽ hướng dẫn bạn tìm hiểu thuật toán Neural Network - một thuật toán rất mạnh mẽ trong Machine Learning."

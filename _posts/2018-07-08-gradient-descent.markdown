@@ -1,4 +1,5 @@
 ---
+tag: learn
 layout: post
 title:  "Bài 7: Thuật Toán Gradient Descent"
 description: "Bài này sẽ hướng dẫn bạn tìm hiểu thuật toán Gradient Descent - một thuật toán có nhiều ứng dụng trong các lĩnh vực khoa học, đặc biệt là Machine Learning."

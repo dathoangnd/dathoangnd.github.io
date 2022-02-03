@@ -1,4 +1,5 @@
 ---
+tag: learn
 layout: post
 title:  "Bài 0: Machine Learning Là Gì Và Giới Thiệu Khóa Học"
 description: "Bài viết này sẽ giúp bạn hiểu rõ Machine Learning là gì và giới thiệu khóa học Machine Learning hoàn toàn miễn phí."

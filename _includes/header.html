@@ -5,7 +5,7 @@
              <ul class="noList">
                  {% for link in site.navigation %}{% assign current = nil %}
                     {% if link.url == '/' %}
-                        {% if page.url contains '/projects' or page.url contains '/contact' or page.url contains '/about' %}
+                        {% if page.url contains '/machine-learning' or page.url contains '/projects' or page.url contains '/contact' or page.url contains '/about' %}
                             {% assign current = nil %}
                         {% else %}
                             {% assign current = 'current' %}

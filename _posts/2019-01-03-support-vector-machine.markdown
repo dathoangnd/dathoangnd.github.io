@@ -1,4 +1,5 @@
 ---
+tag: learn
 layout: post
 title:  "Bài 11: Thuật Toán Support Vector Machine"
 description: "Bài này sẽ hướng dẫn bạn tìm hiểu thuật toán Support Vector Machine - một thuật toán phân loại mạnh mẽ được sử dụng rất phổ biến."

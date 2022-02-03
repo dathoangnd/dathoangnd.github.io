@@ -1,4 +1,5 @@
 ---
+tag: learn
 layout: post
 title:  "Bài 1: Thuật Toán Linear Regression Một Biến"
 description: "Bài này sẽ hướng dẫn bạn tìm hiểu thuật toán Linear Regression một biến - một thuật toán cơ bản và rất quan trọng trong Machine Learning."

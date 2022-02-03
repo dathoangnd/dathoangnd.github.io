@@ -1,4 +1,5 @@
 ---
+tag: learn
 layout: post
 title:  "Bài 15: Thuật Toán K-Means Clustering"
 description: "Bài này sẽ hướng dẫn bạn tìm hiểu thuật toán K-Means Clustering - một thuật toán phân cụm phổ biến trong Machine Learning."

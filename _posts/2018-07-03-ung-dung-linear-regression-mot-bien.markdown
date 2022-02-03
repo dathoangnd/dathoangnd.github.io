@@ -1,4 +1,5 @@
 ---
+tag: learn
 layout: post
 title:  "Bài 2: Ứng Dụng Thuật Toán Linear Regression Một Biến"
 description: "Cách ứng dụng thuật toán Linear Regression một biến trong Machine Learning để dự đoán huyết áp tâm thu của những người ở độ tuổi khác nhau."

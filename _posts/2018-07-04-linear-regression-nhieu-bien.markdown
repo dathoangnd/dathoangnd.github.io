@@ -1,4 +1,5 @@
 ---
+tag: learn
 layout: post
 title:  "Bài 3: Thuật Toán Linear Regression Nhiều Biến"
 description: "Bài này sẽ hướng dẫn bạn tìm hiểu thuật toán Linear Regression nhiều biến - một thuật toán rất quan trọng trong Machine Learning."

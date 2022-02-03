@@ -1,4 +1,5 @@
 ---
+tag: learn
 layout: post
 title:  "Bài 18: Ứng Dụng Thuật Toán Anomaly Detection"
 description: "Trong bài này chúng ta sẽ ứng dụng thuật toán Anomaly Detection trong Machine Learning để phát hiện lượt truy cập bất thường của website."

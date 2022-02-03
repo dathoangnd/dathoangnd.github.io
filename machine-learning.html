@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Nhật ký
+title: Học Machine Learning bằng Javascript
 ---
 
 <div class="home" id="home">
-  <h2 class="pageTitle">Nhật ký</h2>
+  <h2 class="pageTitle">Học Machine Learning</h2>
   <ul class="posts noList">
-    {% for post in site.tags.diary %}
+    {% for post in site.tags.learn reversed %}
       <li>
         <!-- <span class="date">{{ post.date | date: '%B %d, %Y' }}</span> -->
         <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>

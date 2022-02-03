@@ -1,4 +1,5 @@
 ---
+tag: learn
 layout: post
 title:  "Bài 10: Ứng Dụng Thuật Toán Logistic Regression"
 description: "Trong bài này chúng ta sẽ ứng dụng thuật toán Logistic Regression trong Machine Learning để dự đoán tên loài hoa dựa trên các số đo cho trước."

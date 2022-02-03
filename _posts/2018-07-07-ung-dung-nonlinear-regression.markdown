@@ -1,4 +1,5 @@
 ---
+tag: learn
 layout: post
 title:  "Bài 6: Ứng Dụng Thuật Toán Nonlinear Regression"
 description: "Trong bài này chúng ta sẽ ứng dụng thuật toán Nonlinear Regression trong Machine Learning để dự đoán số giờ sử dụng Internet trong từng tháng."

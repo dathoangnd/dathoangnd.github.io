@@ -1,4 +1,5 @@
 ---
+tag: learn
 layout: post
 title:  "Bài 14: Ứng Dụng Thuật Toán Neural Network"
 description: "Trong bài này chúng ta sẽ ứng dụng thuật toán Neural Network trong Machine Learning để dự đoán tên loài hoa dựa trên các số đo cho trước."

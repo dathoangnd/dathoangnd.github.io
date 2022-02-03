@@ -1,4 +1,5 @@
 ---
+tag: learn
 layout: post
 title:  "Bài 9: Thuật Toán Logistic Regression"
 description: "Bài này sẽ hướng dẫn bạn tìm hiểu thuật toán Logistic Regression - một thuật toán phân loại rất quan trọng trong Machine Learning."

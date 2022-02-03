@@ -1,4 +1,5 @@
 ---
+tag: learn
 layout: post
 title:  "Bài 17: Thuật Toán Anomaly Detection"
 description: "Bài này sẽ hướng dẫn bạn tìm hiểu thuật toán Anomaly Detection để phát hiện các điểm dữ liệu bất thường."

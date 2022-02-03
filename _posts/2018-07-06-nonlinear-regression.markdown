@@ -1,4 +1,5 @@
 ---
+tag: learn
 layout: post
 title:  "Bài 5: Thuật Toán Nonlinear Regression"
 description: "Bài này sẽ hướng dẫn bạn tìm hiểu thuật toán Nonlinear Regression trong Machine Learning - thuật toán dự đoán thông tin mới dựa trên dữ kiện cho trước."

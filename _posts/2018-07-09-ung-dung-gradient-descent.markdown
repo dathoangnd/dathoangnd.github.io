@@ -1,4 +1,5 @@
 ---
+tag: learn
 layout: post
 title:  "Bài 8: Ứng Dụng Thuật Toán Gradient Descent"
 description: "Trong bài này chúng ta sẽ ứng dụng thuật toán Gradient Descent trong Machine Learning để dự đoán huyết áp tâm thu của những người ở độ tuổi khác nhau."

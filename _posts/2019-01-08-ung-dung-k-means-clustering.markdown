@@ -1,4 +1,5 @@
 ---
+tag: learn
 layout: post
 title:  "Bài 16: Ứng Dụng Thuật Toán K-Means Clustering"
 description: "Trong bài này chúng ta sẽ ứng dụng thuật toán K-Means Clustering trong Machine Learning để phân cụm các mẫu rượu dựa trên các số đo cho trước."

@@ -1,4 +1,5 @@
 ---
+tag: learn
 layout: post
 title:  "Bài 20: Ứng Dụng Thuật Toán Collaborative Filtering"
 description: "Trong bài này chúng ta sẽ ứng dụng thuật toán Collaborative Filtering trong Machine Learning dự đoán bộ phim người dùng có thể quan tâm."
