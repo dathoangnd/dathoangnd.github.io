@@ -30,9 +30,9 @@
       <meta content="{{ site.url }}/about/" property="article:author">
     {% endif %}
     {% if page.image %}
-      <meta content="{{ site.baseurl }}/assets/img/{{ page.image }}" property="og:image">
+      <meta content="{{ '/assets/img/' | append: page.image | prepend: site.baseurl }}" property="og:image">
     {% else %}
-      <meta content="{{ '/assets/img/background.jpeg' | prepend: site.url }}" property="og:image">
+      <meta content="{{ '/assets/img/background.jpeg' | prepend: site.baseurl }}" property="og:image">
     {% endif %}
 
     <!-- Twitter Cards -->
@@ -53,9 +53,9 @@
       <meta name="twitter:description" content="{{ site.description }}">
     {% endif %}
     {% if page.image %}
-      <meta name="twitter:image:src" content="{{ site.url }}/assets/img/{{ page.image }}">
+      <meta name="twitter:image:src" content="{{ '/assets/img/' | append: page.image | prepend: site.baseurl }}">
     {% else %}
-      <meta name="twitter:image:src" content="{{ '/assets/img/background.jpeg' | prepend: site.url }}">
+      <meta name="twitter:image:src" content="{{ '/assets/img/background.jpeg' | prepend: site.baseurl }}">
     {% endif %}
 
 
