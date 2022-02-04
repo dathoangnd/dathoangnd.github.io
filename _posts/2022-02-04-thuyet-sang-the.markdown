@@ -3,6 +3,7 @@ tag: diary
 layout: post
 title:  "Suy nghĩ về thuyết sáng thế"
 description: "Một vài quan điểm về thuyết sáng thế, một trong những học thuyết phổ biến và lâu đời nhất về nguồn gốc tạo thành vũ trụ."
+image: "genesis.jpeg"
 ---
 Cách đây 3500 năm, nếu có ai đó đi ngang qua núi Sinai, có thể sẽ bắt gặp một người đàn ông tháo dép, buông gậy và quỳ lạy trước một bụi cây. Người đàn ông có vẻ mặt tập trung và nghiêm trọng như đang cố lắng nghe từng lời, từng chữ từ một ai đó. Sau đó, người đàn ông bỏ đi, với gương mặt thoáng một chút lo âu.
 
