@@ -1,7 +1,7 @@
 title: Dat Hoang's Blog
 description: Học Machine Learning bằng JavaScript
 
-url: https://dathoangblog.com
+url: https://www.dathoangblog.com
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: /:year/:month/:title.html
