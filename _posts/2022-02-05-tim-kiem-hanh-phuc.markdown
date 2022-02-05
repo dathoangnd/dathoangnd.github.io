@@ -35,7 +35,7 @@ Các cụ ngày xưa có câu "Có thực mới vực được đạo" quả th�
 
 Còn về tinh thần, thậm chí còn quan trọng hơn vật chất. Bạn cần có sự lạc quan, suy nghĩ tích cực vui vẻ, và hài hòa trong các mối quan hệ xã hội. Dù bạn vui hay buồn, Trái Đất vẫn quay, mọi người vẫn làm việc và sinh hoạt bình thường. Tuy nhiên, cuộc sống muôn màu muôn vẻ, có rất nhiều tình huống sẽ xảy ra trong cuộc sống của bạn khiến nỗi buồn là không thể tránh khỏi. Có những lúc buồn bực, thất vọng tới cùng cực, tôi cũng chán nản, ủ rũ, than trách, vì điều đó còn chứng tỏ tôi là một người bình thường, nhưng tôi cố gắng thay đổi trạng thái để nhanh chóng vượt qua, đón nhận vào những điều tích cực.
 
-Bản thân tôi từ khi rút ra những điều này đã luôn cố gắng để tìm kiếm hạnh phúc trọn vẹn, cho tới giờ, tôi cảm thấy mình thật may mắn khi:
+Cho tới giờ, tôi cảm thấy mình thật may mắn khi:
 
 - Tôi biết ơn vì có cơ thể khỏe mạnh.
 - Tôi biết ơn vì gia đình tôi cũng đều khỏe mạnh.
@@ -46,4 +46,4 @@ Bản thân tôi từ khi rút ra những điều này đã luôn cố gắng đ
 - Tôi biết ơn vì các mối quan hệ xã hội của tôi đều tốt đẹp.
 - Tôi biết ơn vì mình biết cách để cho đi.
 
-Hy vọng những chia sẻ này sẽ lan tỏa một chút năng lượng tích cực tới bạn. Tôi mong bạn cũng tìm được hạnh phúc cho riêng mình.
+Vì vậy tôi cảm thấy hạnh phúc với cuộc sống hiện tại. Hy vọng những chia sẻ này sẽ lan tỏa một chút năng lượng tích cực tới bạn. Tôi mong bạn cũng tìm được hạnh phúc cho riêng mình.
