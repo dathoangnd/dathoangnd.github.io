@@ -29,11 +29,11 @@ Sự đầy đủ về tinh thần nghĩa là:
 - Bạn được người khác tôn trọng.
 - Bạn biết tận hưởng niềm vui của sự cho đi mà không mong cầu nhận lại.
 
-Mỗi người sẽ có một quan điểm khác nhau mà hai danh sách trên có thể dài hơn hoặc ngắn hơn. Nhưng nhìn chung cả hai yếu tố vật chất và tinh thần đều quan trọng để có hạnh phúc thật sự. Thiếu một trong hai thì nó đều không trọng vẹn.
+Mỗi người sẽ có một quan điểm khác nhau mà hai danh sách trên có thể dài hơn hoặc ngắn hơn. Nhưng nhìn chung cả hai yếu tố vật chất và tinh thần đều quan trọng để có hạnh phúc thật sự. Thiếu một trong hai thì nó đều không trọn vẹn.
 
 Các cụ ngày xưa có câu "Có thực mới vực được đạo" quả thực không sai. Nếu một người mà không có công việc, thu nhập ổn định, sẽ không thể chăm sóc được cho bản thân, gia đình, suốt ngày chạy vạy cơm áo gạo tiền, lo lắng về ngày mai thì sao có thể hạnh phúc được. Tất nhiên ta cũng không cần mải mê kiếm tiền để rồi không có thời gian tận hưởng, mọi thứ cần sự cân bằng, nhưng ít nhất cần đạt được sự an toàn về tài chính.
 
-Còn về tinh thần, thậm chí còn quan trọng hơn vật chất. Bạn cần có sự lạc quan, suy nghĩ tích cực vui vẻ, và hài hòa trong các mối quan hệ xã hội. Dù bạn vui hay buồn, Trái Đất vẫn quay, mọi người vẫn làm việc và sinh hoạt bình thường. Tuy nhiên, cuộc sống muôn màu muôn vẻ, có rất nhiều tình huống sẽ xảy ra trong cuộc sống của bạn khiến nỗi buồn là không thể tránh khỏi. Có những lúc buồn bực, thất vọng tới cùng cực, tôi cũng chán nản, ủ rũ, than trách, vì điều đó còn chứng tỏ tôi là một người bình thường, nhưng tôi cố gắng thay đổi trạng thái để nhanh chóng vượt qua, đón nhận vào những điều tích cực. Khi tinh thần đã tốt thường thì thậm chí còn có thể thúc đẩy yếu tố vật chất mạnh mẽ, bởi khi đó ta sẽ có thể có những quyết định sáng suốt hơn. Ví dụ, nhờ suy nghĩ tích cực mà thu nhập của tôi đã tăng lên nhiều lần trong hai năm qua. Vì thế, tôi luôn xem suy nghĩ tích cực là yếu tố quan trọng nhất trong hành trình tìm kiếm hạnh phúc.
+Còn về tinh thần, thậm chí còn quan trọng hơn vật chất. Bạn cần có sự lạc quan, suy nghĩ tích cực vui vẻ, và hài hòa trong các mối quan hệ xã hội. Dù bạn vui hay buồn, Trái Đất vẫn quay, mọi người vẫn làm việc và sinh hoạt bình thường. Tuy nhiên, cuộc sống muôn màu muôn vẻ, có rất nhiều tình huống sẽ xảy ra trong cuộc sống của bạn khiến nỗi buồn là không thể tránh khỏi. Có những lúc buồn bực, thất vọng tới cùng cực, tôi cũng chán nản, ủ rũ, than trách, vì điều đó còn chứng tỏ tôi là một người bình thường, nhưng tôi cố gắng thay đổi trạng thái để nhanh chóng vượt qua, đón nhận vào những điều tích cực.
 
 Bản thân tôi từ khi rút ra những điều này đã luôn cố gắng để tìm kiếm hạnh phúc trọn vẹn, cho tới giờ, tôi cảm thấy mình thật may mắn khi:
 
