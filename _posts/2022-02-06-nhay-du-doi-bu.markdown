@@ -4,7 +4,7 @@ layout: post
 title:  "Trải nghiệm dù lượn đồi Bù"
 description: "Trải nghiệm nhảy dù lượn tại đồi Bù và đánh giá về môn thể thao dù lượn."
 ---
-Đợt gần Tết âm lịch 2022 tôi có đi nhảy dù tại đồi Bù. Đây là ý định tôi đã có từ lâu, một phần vì tò mò, một phần vì muốn thử cảm giác mạnh.
+Đợt gần Tết âm lịch 2022, tôi có đi nhảy dù tại đồi Bù. Đây là ý định tôi đã có từ lâu, một phần vì tò mò, một phần vì muốn thử cảm giác mạnh.
 
 Tôi đặt vé trên Traveloka, gọi là vé cho lịch sự chứ Traveloka chỉ hợp tác với các huấn luyện viên nhảy dù để bắt khách. Trước hôm hẹn, huấn luyện viên có gọi cho tôi nói là sương mù ngày mai được dự báo rất dày, nên nếu tới đó mà không nhảy được thì phải quay về. Việc nhảy dù được hay không phụ thuộc rất nhiều vào thời tiết, có bạn đi nhảy tận ba lần nhưng cả ba lần đều phải về do sương mù dày quá.
 
