@@ -1,7 +1,7 @@
 ---
 tag: diary
 layout: post
-title:  "Lập trình viên kiếm tiền thế nào?"
+title:  "Lập trình viên kiếm tiền cách nào?"
 description: "Bài này là những chia sẻ về các cách mà một lập trình viên có thể kiếm ra tiền, cũng như đánh giá ưu nhược điểm của chúng."
 ---
 Nhiều bạn có ý định học ngành lập trình thường thắc mắc ngành này có cơ hội nghề nghiệp thế nào, liệu thu nhập có tốt không? Hoặc là những bạn lập trình viên đã đi làm cũng muốn gia tăng thêm thu nhập.
