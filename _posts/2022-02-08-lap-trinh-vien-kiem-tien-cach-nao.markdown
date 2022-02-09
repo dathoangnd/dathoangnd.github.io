@@ -4,9 +4,7 @@ layout: post
 title:  "Lập trình viên kiếm tiền thế nào?"
 description: "Bài này là những chia sẻ về các cách mà một lập trình viên có thể kiếm ra tiền, cũng như đánh giá ưu nhược điểm của chúng."
 ---
-Nhiều bạn có ý định học ngành lập trình thường thắc mắc ngành này có cơ hội nghề nghiệp thế nào, liệu có kiếm được nhiều tiền không? Hoặc là một số bạn ngoài ngành cũng thi thoảng tò mò tự hỏi sao mấy ông lập trình viên suốt ngày cắm đầu vào máy tính mà vẫn kiếm ra tiền thế?
-
-Dù là bất cứ ngành nghề nào, bạn đều có nhiều cách để kiếm ra tiền, nếu chuyên môn của bạn đủ tốt. Bạn cũng có thể nhanh chóng gia tăng thu nhập của mình bằng cách phát triển thêm các nguồn thu nhập phụ, bên cạnh một nguồn thu nhập chính.
+Nhiều bạn có ý định học ngành lập trình thường thắc mắc ngành này có cơ hội nghề nghiệp thế nào, liệu thu nhập có tốt không? Hoặc là những bạn lập trình viên đã đi làm cũng muốn gia tăng thêm thu nhập.
 
 Trong bài này, mình sẽ giới thiệu một số cách phổ biến mà một lập trình viên có thể làm để kiếm tiền. Hầu hết các cách này mình đều đã thử, nên muốn chia sẻ lại một số đánh giá, suy nghĩ để bạn có thể cân nhắc.
 
@@ -52,7 +50,7 @@ Website học trực tuyến lớn nhất là Udemy, nhưng phần lớn các kh
 
 **Độ khó:** 4/5
 
-**Thu nhập:** Từ vài nghìn USD tới vài trăm nghìn USD tổng cộng
+**Thu nhập:** Từ vài nghìn USD tới vài chục nghìn USD tổng cộng
 
 ### Cách 5: Làm sản phẩm riêng
 Đây là cách khó nhất, có thể hiểu là bạn tự nghĩ ra ý tưởng về một sản phẩm, tự thiết kế, tự làm, và tự bán.
@@ -63,6 +61,6 @@ Nhìn chung, đây là cách rất khó, cần nhiều công sức và thời gi
 
 **Độ khó:** 5/5
 
-**Thu nhập:** Từ vài nghìn USD tới vài trăm nghìn USD mỗi tháng
+**Thu nhập:** Từ vài nghìn USD tới vài chục nghìn USD mỗi tháng
 
 Trên đây là một số cách kiếm tiền của lập trình viên. Xin lưu ý rằng các đánh giá về độ khó, mức thu nhập chỉ là tương đối và có thể dao động. Hy vọng đó sẽ là thông tin tham khảo hữu ích gửi đến bạn. Hẹn gặp lại bạn trong các bài viết tiếp theo.
