@@ -9,7 +9,7 @@
   "author": "Brian Maier Jr.",
   "license": "MIT",
   "devDependencies": {
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   },
   "repository": {
     "type": "git",
