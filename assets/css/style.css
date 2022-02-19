@@ -692,6 +692,16 @@ a {
     color: #1b5233; }
 
 /***************
+IMAGE STYLING
+***************/
+.post-image {
+  display: block;
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+/***************
 MENU STYLING
 ***************/
 .nav-collapse {
