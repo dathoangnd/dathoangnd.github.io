@@ -22,7 +22,7 @@ Làm freelance tức là nhận các dự án từ bên ngoài về tự làm t�
 
 Bạn nên nhận freelance từ nước ngoài trên các trang Upwork, Fiverr. Lý do là nhận dự án từ nước ngoài thường sẽ có giá cao hơn, hơn nữa do sức mua tại Việt Nam gấp khoảng 3 lần sức mua tại Mĩ, các freelancer Việt Nam có thể ép giá rẻ hơn được (rẻ tới nỗi các freelancer Mĩ phải bỏ cuộc :laughing:)
 
-Tuy nhiên, lực lượng freelancer là rất đông và hung hãn, bạn sẽ phải cạnh tranh với rất nhiều người khác mới có thể nhận được một dự án, vì vậy, bạn nên có thêm một người giúp đỡ chuyên đi tìm dự án giúp bạn, và nên mời chào lại các khách hàng cũ.
+Tuy nhiên, lực lượng freelancer rất đông đúc, bạn sẽ phải cạnh tranh với rất nhiều người khác mới có thể nhận được một dự án, vì vậy, bạn nên có thêm một người giúp đỡ chuyên đi tìm dự án giúp bạn, và nên mời chào lại các khách hàng cũ.
 
 **Độ khó:** 3/5
 
