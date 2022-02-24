@@ -6,7 +6,7 @@ description: "Cách thay đổi và duy trì thói quen tích cực với ứng 
 ---
 > Chúng ta không chọn lựa tương lai. Chúng ta chọn lựa các thói quen và các thói quen sẽ quyết định tương lai.
 
-Đó là câu giới thiệu của ứng dụng Eden - một trong những ứng dụng trên iPhone mà mình rất thích. Ứng dụng này giúp chúng ta tạo và theo dõi các thói quen hàng ngày.
+Đó là câu giới thiệu của ứng dụng Eden - một trong những ứng dụng trên iPhone mà tôi rất thích. Ứng dụng này giúp chúng ta tạo và theo dõi các thói quen hàng ngày.
 
 <img class="post-image" src="{{ '/assets/img/eden-app.jpg' | prepend: site.baseurl }}" />
 
@@ -14,8 +14,8 @@ description: "Cách thay đổi và duy trì thói quen tích cực với ứng 
 
 <img class="post-image" src="{{ '/assets/img/eden-picture-1.jpeg' | prepend: site.baseurl }}" />
 
-Lý do mình thích ứng dụng này là vì giao diện của nó rất đơn giản, giúp mình có thể tập trung vào việc hoàn thành các thói quen mà không cần quan tâm tới việc sử dụng nó ra sao. Ngoài ra, nhạc của ứng dụng cũng rất dễ chịu với các hiệu ứng: mưa rơi, gió, rừng cây, sóng biển, ...
+Lý do tôi thích ứng dụng này là vì giao diện của nó rất đơn giản, giúp tôi có thể tập trung vào việc hoàn thành các thói quen mà không cần quan tâm tới việc sử dụng nó ra sao. Ngoài ra, nhạc của ứng dụng cũng rất dễ chịu với các hiệu ứng: mưa rơi, gió, rừng cây, sóng biển, ...
 
-Mình cũng đã bỏ tiền ra mua đầy đủ phiên bản ứng dụng cho phép chọn nhiều loại hoa để trồng hơn. Mình nghĩ với việc giúp mình thay đổi thói quen tích cực, thì đó là khoản đầu tư rất có lãi.
+Tôi cũng đã bỏ tiền ra mua đầy đủ phiên bản ứng dụng cho phép chọn nhiều loại hoa để trồng hơn. Tôi nghĩ với việc giúp mình thay đổi thói quen tích cực, thì đó là khoản đầu tư rất có lãi.
 
 <img class="post-image" src="{{ '/assets/img/eden-picture-2.webp' | prepend: site.baseurl }}" />

@@ -6,7 +6,7 @@ description: "Bài này là những chia sẻ về các cách mà một lập tr
 ---
 Nhiều bạn có ý định học ngành lập trình thường thắc mắc ngành này có cơ hội nghề nghiệp thế nào, liệu thu nhập có tốt không? Hoặc là những bạn lập trình viên đã đi làm cũng muốn gia tăng thêm thu nhập.
 
-Trong bài này, mình sẽ giới thiệu một số cách phổ biến mà một lập trình viên có thể làm để kiếm tiền. Hầu hết các cách này mình đều đã thử, nên muốn chia sẻ lại một số đánh giá, suy nghĩ để bạn có thể cân nhắc.
+Trong bài này, tôi sẽ giới thiệu một số cách phổ biến mà một lập trình viên có thể làm để kiếm tiền. Hầu hết các cách này tôi đều đã thử, nên muốn chia sẻ lại một số đánh giá, suy nghĩ để bạn có thể cân nhắc.
 
 ### Cách 1: Làm công ăn lương
 Đây là cách đầu tiên bạn có thể nghĩ tới. Thị trường lao động ngành IT nói chung và lập trình nói riêng là rất lớn, khi cung vẫn chưa đáp ứng được cầu. Nếu bạn có trình độ chuyên môn tốt, bạn sẽ có thể nhanh chóng tìm được một công việc phù hợp với mức đãi ngộ tương xứng.
@@ -33,7 +33,7 @@ Bạn có thể tạo ra một blog và viết về chủ đề công nghệ b�
 
 Khi đã có lưu lượng truy cập ổn, bạn có thể đặt quảng cáo, bán chuột máy tính, bàn phím cơ, hoặc đơn giản là bán áo phông.
 
-Xin ghi chú là blog này của mình tạo ra không phải để kiếm tiền :laughing: mà chỉ là do sở thích.
+Xin ghi chú là blog này của tôi tạo ra không phải để kiếm tiền :laughing: mà chỉ là do sở thích.
 
 Nhìn chung, để blog trở nên phổ biến cần rất nhiều thời gian, công sức tìm hiểu và viết nội dung chất lượng, nên thực tế không nhiều người có thể kiếm được tiền từ blog.
 
