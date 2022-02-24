@@ -6,7 +6,7 @@ title: Nhật ký
 <div class="home" id="home">
   <h2 class="pageTitle">Nhật ký</h2>
   <ul class="posts noList">
-    {% for post in site.tags.diary reversed %}
+    {% for post in site.tags.diary %}
       <li>
         <!-- <span class="date">{{ post.date | date: '%B %d, %Y' }}</span> -->
         <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
