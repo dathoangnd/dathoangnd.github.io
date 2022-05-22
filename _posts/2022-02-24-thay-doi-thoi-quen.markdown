@@ -1,5 +1,5 @@
 ---
-tag: diary
+tag: hidden
 layout: post
 title:  "Thay đổi thói quen tích cực"
 description: "Cách thay đổi và duy trì thói quen tích cực với ứng dụng Eden."

@@ -1,5 +1,5 @@
 ---
-tag: diary
+tag: hidden
 layout: post
 title:  "Lập trình viên kiếm tiền cách nào?"
 description: "Bài này là những chia sẻ về các cách mà một lập trình viên có thể kiếm ra tiền, cũng như đánh giá ưu nhược điểm của chúng."

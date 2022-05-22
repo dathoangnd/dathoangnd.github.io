@@ -1,5 +1,5 @@
 ---
-tag: diary
+tag: hidden
 layout: post
 title:  "Hành trình tìm kiếm hạnh phúc"
 description: "Tìm kiếm hạnh phúc trong cuộc sống là hành trình lâu dài và thú vị, là đích đến tất cả mọi người đều muốn hướng tới."
