@@ -1,25 +1,19 @@
- <div class="header">
-     <div class="container">
-         <h1 class="logo"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-         <nav class="nav-collapse">
-             <ul class="noList">
-                 {% for link in site.navigation %}{% assign current = nil %}
-                    {% if link.url == '/' %}
-                        {% if page.url contains '/machine-learning' or page.url contains '/projects' or page.url contains '/contact' or page.url contains '/about' %}
-                            {% assign current = nil %}
-                        {% else %}
-                            {% assign current = 'current' %}
-                        {% endif %}
-                    {% else %}
-                        {% if page.url contains link.url %}
-                            {% assign current = 'current' %}
-                        {% endif %}
-                    {% endif %}
-                    <li class="element {% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
-                        <a href="{{ link.url | prepend: site.baseurl }}">{{ link.title }}</a>
-                    </li> 
-                 {% endfor %}
-             </ul>
-         </nav>
-     </div>
- </div><!-- end .header -->
+<header class="site-header" role="banner">
+
+  <div class="wrapper">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+
+    {%- if page_paths -%}
+      <nav class="site-nav" style="border: none">
+        {%- for path in page_paths -%}
+          {%- assign my_page = site.pages | where: "path", path | first -%}
+          {%- if my_page.title -%}
+          <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+          {%- endif -%}
+        {%- endfor -%}
+      </nav>
+    {%- endif -%}
+  </div>
+</header>
