@@ -23,8 +23,8 @@ Selling Zeno wasn’t an easy decision. It’s hard to part with something you�
 
 Additionally, selling Zeno opens up opportunities for me to explore new ideas and projects. The financial security from the sale allows me to focus entirely on building something new without immediate pressure.
 
-### Does It Afford Me a Ferrari?
-I usually don’t feel comfortable discussing the financial aspects of the acquisition, but I think sharing some of my perspective might be helpful. To answer the question directly—yes, the sale could technically afford me a cheap model of a Ferrari. However, owning a luxury thing has never been a priority for me, and honestly, I don’t see it as something that would add real value to my life or align with my goals.
+### Does It Afford Me a Porsche?
+I usually don’t feel comfortable discussing the financial aspects of the acquisition, but I think sharing some of my perspective might be helpful. To answer the question directly—yes, the sale could technically afford me a Porsche. However, owning a luxury thing has never been a priority for me, and honestly, I don’t see it as something that would add real value to my life or align with my goals.
 
 I see this as an opportunity to reinvest in myself and my future projects. I want to focus on personal growth, learning new skills, and experimenting with ideas that have the potential to create lasting impact. To me, this isn’t just money—it’s a resource that can open doors to new ventures and help me pursue my passion for building meaningful products.
 
