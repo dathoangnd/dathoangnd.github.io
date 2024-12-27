@@ -40,7 +40,7 @@ Here are some of the key takeaways from my Zeno journey:
 
 ### What’s Next?
 
-With Zeno now in the hands of its new owners, I’m shifting my focus to future projects. Here’s what’s on my mind:
+With Zeno now in the hands of its new owners, I’m shifting my focus to other projects. Here’s what’s on my mind:
 
 - **Developing the New Business:** Alongside my existing apps, I’m excited to invest more time in a new business idea that’s been on my mind. It’s still in the early stages, but I’m eager to see where it leads.
 
